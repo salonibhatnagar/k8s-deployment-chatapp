@@ -19,6 +19,6 @@ spec: #inside your deployment we need to provide spec how this deployment api wi
     spec: #we define container spec
       containers:
       - name: mychatapp-container
-        image: gopal1409/chatapp:v1
+        image: gopal1409/chatapp
         ports:
           - containerPort: 8080
